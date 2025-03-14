@@ -1,38 +1,91 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>余晖烁烁 - 小马国女孩的闪耀传奇</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="zp/img.png" type="zp/png">
 </head>
+
 <body>
+<!-- 导航栏 -->
+<nav class="navbar">
+    <a href="https://wen20070723.github.io/MLP/" class="home-btn">
+        <span class="home-icon">🏠</span> 返回主页
+    </a>
+    <a href="#character-profile" class="nav-link">角色档案</a>
+    <a href="#timeline" class="nav-link">关键历程</a>
+    <a href="#ability-demo" class="nav-link">能力展示</a>
+    <a href="#quote-section" class="nav-link">经典台词</a>
+    <a href="#interactive-section" class="nav-link">互动问答</a>
+    <a href="#game-section" class="nav-link">猜数字游戏</a>
+</nav>
+
 <header class="header">
     <h1>✨ 余晖烁烁 ✨</h1>
     <p>小马国女孩的闪耀传奇 | 彩虹音爆核心成员</p>
 </header>
+
+<!-- 余晖烁烁照片展示区域 -->
+<section class="photo-gallery">
+    <h2>📷 余晖烁烁美照集 📷</h2>
+    <div class="photo-container">
+        <img src="zp/yhsszp1.jpg" alt="余晖烁烁照片1" class="gallery-image">
+        <img src="zp/yhsszp2.jpg" alt="余晖烁烁照片2" class="gallery-image">
+        <img src="zp/yhsszp3.jpg" alt="余晖烁烁照片3" class="gallery-image">
+    </div>
+</section>
 
 <div class="image-container">
     <img src="zp/yhsszp.jpg" alt="余晖烁烁" class="main-image">
     <div class="aura-effect"></div>
 </div>
 
-<section class="character-profile">
+<section class="character-profile" id="character-profile">
     <h2>🌟 角色档案 🌟</h2>
     <table class="profile-table">
-        <tr><th>中文名</th><td>余晖烁烁</td></tr>
-        <tr><th>外文名</th><td>Sunset Shimmer</td></tr>
-        <tr><th>配音</th><td>Rebecca Shoichet等</td></tr>
-        <tr><th>性别</th><td>女</td></tr>
-        <tr><th>种族</th><td>独角兽（小马）/ 人类</td></tr>
-        <tr><th>代表颜色</th><td>红色</td></tr>
-        <tr><th>魔法光</th><td>碧绿色（原）→ 红色（现）</td></tr>
-        <tr><th>就读学校</th><td>坎特洛特高中</td></tr>
-        <tr><th>特殊能力</th><td>读心术、同理心</td></tr>
+        <tr>
+            <th>中文名</th>
+            <td>余晖烁烁</td>
+        </tr>
+        <tr>
+            <th>外文名</th>
+            <td>Sunset Shimmer</td>
+        </tr>
+        <tr>
+            <th>配音</th>
+            <td>Rebecca Shoichet等</td>
+        </tr>
+        <tr>
+            <th>性别</th>
+            <td>女</td>
+        </tr>
+        <tr>
+            <th>种族</th>
+            <td>独角兽（小马）/ 人类</td>
+        </tr>
+        <tr>
+            <th>代表颜色</th>
+            <td>红色</td>
+        </tr>
+        <tr>
+            <th>魔法光</th>
+            <td>碧绿色（原）→ 红色（现）</td>
+        </tr>
+        <tr>
+            <th>就读学校</th>
+            <td>坎特洛特高中</td>
+        </tr>
+        <tr>
+            <th>特殊能力</th>
+            <td>读心术、同理心</td>
+        </tr>
     </table>
 </section>
 
-<section class="timeline">
+<section class="timeline" id="timeline">
     <h2>📜 关键历程 📜</h2>
     <ul>
         <li>2013《小马国女孩》：首次登场，从反派转变为悔过者</li>
@@ -43,36 +96,56 @@
     </ul>
 </section>
 
-<section class="ability-demo">
+<section class="ability-demo" id="ability-demo">
     <h2>💥 能力展示 💥</h2>
-    <div class="ability-card">
-        <h3>读心术</h3>
-        <p>通过肢体接触感知他人思想与情感</p>
-    </div>
-    <div class="ability-card">
-        <h3>彩虹变身</h3>
-        <p>与朋友同心时触发半小马形态</p>
-    </div>
-    <div class="ability-card">
-        <h3>同理心</h3>
-        <p>理解他人内心，化解矛盾的核心力量</p>
+    <div class="ability-group">
+        <div class="ability-card">
+            <h3>读心术</h3>
+            <p>通过肢体接触感知他人思想与情感。在一些关键时刻，余晖烁烁运用读心术洞察朋友的内心困扰，给予及时的帮助和支持。</p>
+        </div>
+        <div class="ability-card">
+            <h3>彩虹变身</h3>
+            <p>与朋友同心时触发半小马形态。当面对强大的敌人或挑战时，这种变身能让余晖烁烁发挥出更强大的力量，和伙伴们一起度过难关。</p>
+        </div>
+        <div class="ability-card">
+            <h3>同理心</h3>
+            <p>理解他人内心，化解矛盾的核心力量。凭借同理心，余晖烁烁总是能站在他人角度思考问题，促进团队的和谐与团结。</p>
+        </div>
     </div>
 </section>
 
-<section class="quote-section">
+<section class="quote-section" id="quote-section">
     <h2>🎤 经典台词 🎤</h2>
     <blockquote>
         "真正的魔法来自诚实、忠诚、欢笑、慷慨、善良！而我要向你展示最重要的魔法——友谊魔法！"
     </blockquote>
 </section>
 
-<section class="interactive-section">
+<section class="interactive-section" id="interactive-section">
     <h2>🎮 互动问答 🎮</h2>
-    <button class="quiz-btn" data-question="1">Q：余晖烁烁代表的和谐之元是什么？</button>
-    <button class="quiz-btn" data-question="2">Q：她在《彩虹摇滚》中加入了哪个乐队？</button>
+    <div class="quiz-buttons">
+        <button class="quiz-btn" data-question="1">Q：余晖烁烁代表的和谐之元是什么？</button>
+        <button class="quiz-btn" data-question="2">Q：她在《彩虹摇滚》中加入了哪个乐队？</button>
+    </div>
     <div class="answer-box" id="answerBox"></div>
 </section>
 
+<!-- 小游戏部分 -->
+<section class="game-section" id="game-section">
+    <h2>🎮 猜数字小游戏 🎮</h2>
+    <p>我已经想好了一个 1 到 100 之间的数字，你可以开始猜啦！</p>
+    <input type="number" id="guessInput" min="1" max="100">
+    <button id="guessBtn">猜一猜</button>
+    <p id="gameResult"></p>
+</section>
+
+<!-- 版权信息 -->
+<footer class="footer">
+    <p>&copy; 2025 版权所有，保留一切权利</p>
+</footer>
+
 <script src="js/script.js"></script>
+<script src="js/game.js"></script>
 </body>
+
 </html>
